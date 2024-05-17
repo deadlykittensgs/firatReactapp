@@ -1,3 +1,5 @@
-h1 {
-    background-color: aqua;
+.HeaderBody{
+    background-color: rgb(25, 14, 238);
+    display: flex;
+    width: 100%;
 }

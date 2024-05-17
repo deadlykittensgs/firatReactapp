@@ -1,0 +1,5 @@
+.footerBox {
+    display: flex;
+    background-color: aquamarine;
+    width: 100%;
+}

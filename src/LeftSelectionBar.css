@@ -1,0 +1,5 @@
+.LeftSelectionBar  {
+    display: flex;
+    width: 50%;
+    background-color: rgb(0, 255, 51);
+}

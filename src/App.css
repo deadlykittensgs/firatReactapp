@@ -4,17 +4,8 @@ section {
   display: flex;
   flex: 1;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
+  justify-content: space-between;
+  background-color: rgb(196, 203, 208);
+  
 
-
-.HeaderBody {
-  background-color: rgb(242, 0, 255);
-  display: flex;
-  flex: 1;
-}
-
-Footer {
-  background-color: blueviolet;
 }
