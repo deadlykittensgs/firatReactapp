@@ -1,9 +1,25 @@
 import React, { useState } from 'react'
-import "./LeftSelectionBar.css"
-
-export default function LeftSelectionBar() {
+import "./Body.css"
 
 
+
+function DisplayDataOnClick() {
+  return(
+    <section>
+
+      <div>
+        <p className='title'>What Button is selected</p>
+        <div>example</div>
+        <div>notes</div>
+      </div>
+
+    </section>
+  )
+}
+
+
+
+export default function Body() {
 
   let [currentInfo, setNewInfo] = useState('starting text')
 
@@ -17,14 +33,8 @@ export default function LeftSelectionBar() {
     if (kind == "forEach")
     { setNewInfo("this is what a while loop is")}
  
-
-    
-    
-
   }
   
-  
-
   return (
     <section>
       <div className='middle'>
@@ -56,7 +66,8 @@ export default function LeftSelectionBar() {
 </div>
 </div>
 <div className='information'>
-  {currentInfo}
+{/* {currentInfo}  */}
+<DisplayDataOnClick/>
 </div>
 
 </div>

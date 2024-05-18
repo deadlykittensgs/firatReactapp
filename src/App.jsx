@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 import Header from './Header'
 import Footer from './Footer'
-import LeftSelectionBar from './LeftSelectionBar'
+import Body from './Body'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
     <section>
     <>
      <Header/>
-     <LeftSelectionBar/>
+     <Body/>
      <Footer/>
     </>
     </section>

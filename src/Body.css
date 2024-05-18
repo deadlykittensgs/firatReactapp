@@ -86,7 +86,12 @@ background-color: rgba(0, 64, 255, 0.419);
 .information {
     display: flex;
     flex: 1 1;
-    background-color: rgb(186, 181, 181);
+    background-color: rgb(212, 207, 207);
     overflow: auto;
+    color: black;
 
+}
+
+.title {
+   text-align: center;
 }
