@@ -4,7 +4,8 @@ import './Header.css'
 export default function Header() {
   return (
     <div className='HeaderBody'>
-        <h1> this is the header</h1>
+        <h2> Function Finder</h2>
+        <div>Other Text</div>
     </div>
   )
 }

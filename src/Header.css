@@ -2,5 +2,9 @@
     background-color: rgb(25, 14, 238);
     display: flex;
     width: 100%;
+    min-height: 10%;
     border-bottom: 2px solid rgb(255, 255, 255);
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }

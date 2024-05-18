@@ -15,17 +15,20 @@ flex: 1 1;
     flex: 1 1 10%;
     flex-direction: column;
     justify-content: space-evenly;
-    width: 20%;
+    max-width: fit-content;
     height: 100%;
     background-color: rgb(82, 79, 255);
     padding: 10px;
    border: 2px solid white;
+   overflow-y: auto;
+   
 }
 
 .LeftSelectionBar button {
     background-color: transparent;
     text-align: center;
     font-size: .8rem;
+    max-width: fit-content;
 
 }
 
@@ -38,9 +41,11 @@ background-color: rgba(0, 64, 255, 0.419);
 .bodyContent {
     display: flex;
     flex-direction: column;
-    flex: 1 1x;
+    flex: 1 1;
     background-color: rgb(235, 139, 13);
     border: 1px solid white;
+    overflow-x: auto;
+    
 }
 
 
@@ -48,21 +53,23 @@ background-color: rgba(0, 64, 255, 0.419);
     display: flex;
     flex-direction: column;
     background-color: blue; 
-    height: 20%;
+    height: fit-content;
     border: 1px solid white;
+
 
 }
 
 .nameChoices h5 {
     text-align: center;
     font-size: 1.1rem;
-    padding: 0;
+    padding: 10px;
 }
 
 .pageOptions {
     display: flex;
     flex: 1 1;
-    
+    overflow: auto;
+   align-items: center;
 }
 
 .nameChoices button {
@@ -70,6 +77,8 @@ background-color: rgba(0, 64, 255, 0.419);
     width: 100px;
     justify-content: center;
     align-items: center;
+    padding: 10px;
+    height: fit-content;
  
 
 }
